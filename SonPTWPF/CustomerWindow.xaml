@@ -1,0 +1,22 @@
+﻿<Window x:Class="SonPTWPF.CustomerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CustomerWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Button x:Name="btnProfile" 
+                    Content="Profile" 
+                    Width="150" 
+                    Height="40" 
+                    Margin="0,10,0,0" 
+                    Click="btnProfile_Click"/>
+            <Button x:Name="btnReservationHistory" 
+                    Content="Reservation History" 
+                    Width="150" 
+                    Height="40" 
+                    Margin="0,10,0,0" 
+                    Click="btnReservationHistory_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
